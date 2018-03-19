@@ -1,0 +1,59 @@
+/* @import '../../../themes/config'  */
+/* line 3, sass/base/_base.sass */
+[role="button"] {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  width: 750px;
+}
+
+@media (min-width: 992px) {
+  width: 970px;
+}
+
+@media (min-width: 1200px) {
+  width: 1170px;
+}
+
+/* @import '../../../themes/config'  */
+/* line 3, sass/base/_base.sass */
+[role="button"] {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  width: 750px;
+}
+
+@media (min-width: 992px) {
+  width: 970px;
+}
+
+@media (min-width: 1200px) {
+  width: 1170px;
+}
+
+/* line 2, sass/modules/_card.sass */
+.card--wrapper {
+  background-color: red;
+  background-size: contain;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+/* line 8, sass/modules/_card.sass */
+.card--title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* line 12, sass/modules/_card.sass */
+.card--sub-title {
+  font-style: italic;
+}
+
+/* line 15, sass/modules/_card.sass */
+.card--link {
+  text-decoration: none;
+}

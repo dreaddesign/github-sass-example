@@ -1,0 +1,1290 @@
+@-webkit-keyframes rotateOutin {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+  }
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+}
+
+@keyframes rotateOutin {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+  }
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+}
+
+@-webkit-keyframes rotateOutOff {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+}
+
+@keyframes rotateOutOff {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+}
+
+@-webkit-keyframes jumpUp {
+  0% {
+    -webkit-transform: rotate(90deg) scale(1);
+    transform: rotate(90deg) scale(1);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  50% {
+    -webkit-transform: rotate(90deg) scale(1.4);
+    transform: rotate(90deg) scale(1.4);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  100% {
+    -webkit-transform: rotate(90deg) scale(1);
+    transform: rotate(90deg) scale(1);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+}
+
+@keyframes jumpUp {
+  0% {
+    -webkit-transform: rotate(90deg) scale(1);
+    transform: rotate(90deg) scale(1);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  50% {
+    -webkit-transform: rotate(90deg) scale(1.4);
+    transform: rotate(90deg) scale(1.4);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  100% {
+    -webkit-transform: rotate(90deg) scale(1);
+    transform: rotate(90deg) scale(1);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+}
+
+/* @import '../../../themes/config'  */
+/* line 3, sass/base/_base.sass */
+[role="button"] {
+  cursor: pointer;
+}
+
+/* line 6, sass/base/_base.sass */
+#image-slider .container, .textblock #image-slider .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  width: 750px;
+}
+
+@media (min-width: 992px) {
+  width: 970px;
+}
+
+@media (min-width: 1200px) {
+  width: 1170px;
+}
+
+/* line 27, sass/base/_base.sass */
+.image-slider--controller-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 37, sass/base/_base.sass */
+.image-slider--controller-chevron, .image-slider--controller-container .down-arrow-wrapper,
+.image-slider--controller-container .close-out-wrapper, .image-slider--controller-container .down-arrow-wrapper,
+.image-slider--controller-container .close-out-wrapper, .continuous-slider .title-attr, .continuous-slider .card--image, .image-slider--controller-copy, .image-slider--controller-button, .image-slider--controller-price, .image-slider-button, .continuous-slider .title-attr, .continuous-slider .inventory--price-wrapper, .image-slider--controller-title, .image-slider-copy, .image-slider--controller-copy, .image-slider--controller-content, .image-slider-price, .continuous-slider .inventory--vdp-link, .continuous-slider .discount-wrapper, .image-slider--controller-button, .image-slider--controller-price, .image-slider--controller-content, .image-slider-content, .continuous-slider .card--title-wrapper, .continuous-slider .inventory--price-wrapper, .continuous-slider .card--title-wrapper, .image-slider--controller-copy > *, .continuous-slider .continuous-carousel, .image-slider--disclaimer, .image-slider--controller-title {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 43, sass/base/_base.sass */
+.image-slider--controller-chevron, .image-slider--controller-container .down-arrow-wrapper,
+.image-slider--controller-container .close-out-wrapper, .continuous-slider .title-attr, .continuous-slider .card--image, .image-slider-button, .image-slider-copy, .image-slider--controller-copy, .image-slider--controller-content, .image-slider-price, .continuous-slider .inventory--vdp-link, .continuous-slider .discount-wrapper, .image-slider--controller-button, .image-slider--controller-price, .image-slider-content, .continuous-slider .card--title-wrapper, .continuous-slider .inventory--price-wrapper, .image-slider--controller-copy > *, .continuous-slider .continuous-carousel, .image-slider--disclaimer, .image-slider--controller-title {
+  float: left;
+}
+
+/* line 46, sass/base/_base.sass */
+.continuous-slider .continuous-carousel, .image-slider--disclaimer, .image-slider--controller-title {
+  width: 100%;
+}
+
+/* line 52, sass/base/_base.sass */
+.image-slider--controller-copy > * {
+  width: 83.33333333%;
+}
+
+/* line 58, sass/base/_base.sass */
+.continuous-slider .card--title-wrapper, .continuous-slider .inventory--price-wrapper {
+  width: 66.66666667%;
+}
+
+/* line 61, sass/base/_base.sass */
+.image-slider-content {
+  width: 58.33333333%;
+}
+
+/* line 64, sass/base/_base.sass */
+.image-slider-price, .continuous-slider .inventory--vdp-link, .continuous-slider .discount-wrapper, .image-slider--controller-button, .image-slider--controller-price {
+  width: 50%;
+}
+
+/* line 67, sass/base/_base.sass */
+.image-slider-copy, .image-slider--controller-copy, .image-slider--controller-content {
+  width: 41.66666667%;
+}
+
+/* line 70, sass/base/_base.sass */
+.image-slider-button {
+  width: 33.33333333%;
+}
+
+/* line 73, sass/base/_base.sass */
+.continuous-slider .title-attr, .continuous-slider .card--image {
+  width: 25%;
+}
+
+/* line 76, sass/base/_base.sass */
+.image-slider--controller-container .down-arrow-wrapper,
+.image-slider--controller-container .close-out-wrapper {
+  width: 16.66666667%;
+}
+
+/* line 79, sass/base/_base.sass */
+.image-slider--controller-chevron {
+  width: 8.33333333%;
+}
+
+@media (min-width: 768px) {
+  /* line 200, sass/base/_base.sass */
+  .image-slider--controller-copy, .image-slider--controller-button, .image-slider--controller-price, .continuous-slider .title-attr, .continuous-slider .inventory--price-wrapper, .image-slider--controller-content, .continuous-slider .card--title-wrapper {
+    float: left;
+  }
+  /* line 215, sass/base/_base.sass */
+  .continuous-slider .card--title-wrapper {
+    width: 66.66666667%;
+  }
+  /* line 221, sass/base/_base.sass */
+  .image-slider--controller-content {
+    width: 50%;
+  }
+  /* line 227, sass/base/_base.sass */
+  .continuous-slider .title-attr, .continuous-slider .inventory--price-wrapper {
+    width: 33.33333333%;
+  }
+  /* line 230, sass/base/_base.sass */
+  .image-slider--controller-copy, .image-slider--controller-button, .image-slider--controller-price {
+    width: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 358, sass/base/_base.sass */
+  .image-slider--controller-container .down-arrow-wrapper,
+  .image-slider--controller-container .close-out-wrapper, .image-slider--controller-title {
+    float: left;
+  }
+  /* line 385, sass/base/_base.sass */
+  .image-slider--controller-title {
+    width: 33.33333333%;
+  }
+  /* line 394, sass/base/_base.sass */
+  .image-slider--controller-container .down-arrow-wrapper,
+  .image-slider--controller-container .close-out-wrapper {
+    width: 8.33333333%;
+  }
+}
+
+/* line 673, sass/base/_base.sass */
+
+#image-slider .container:before,
+.textblock #image-slider .container:before,
+#image-slider .container:after,
+.textblock #image-slider .container:after,
+.image-slider--controller-container:before,
+.image-slider--controller-container:after {
+  content: " ";
+  display: table;
+}
+
+/* line 684, sass/base/_base.sass */
+
+#image-slider .container:after,
+.textblock #image-slider .container:after,
+.image-slider--controller-container:after {
+  clear: both;
+}
+
+/* line 696, sass/base/_base.sass */
+
+#image-slider .container:before,
+.textblock #image-slider .container:before,
+#image-slider .container:after,
+.textblock #image-slider .container:after,
+.image-slider--controller-container:before,
+.image-slider--controller-container:after {
+  content: " ";
+  display: table;
+}
+
+/* line 707, sass/base/_base.sass */
+
+#image-slider .container:after,
+.textblock #image-slider .container:after,
+.image-slider--controller-container:after {
+  clear: both;
+}
+
+/* line 1, sass/modules/_owl-caro.sass */
+.owl-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+}
+
+/* line 6, sass/modules/_owl-caro.sass */
+.image-slider {
+  visibility: hidden;
+}
+
+/* line 9, sass/modules/_card-slider.sass */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 12, sass/modules/_card-slider.sass */
+.image-card-template {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 15, sass/modules/_card-slider.sass */
+.image-slider {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 15, sass/modules/_card-slider.sass */
+  .image-slider {
+    display: block;
+  }
+}
+
+/* line 19, sass/modules/_card-slider.sass */
+.image-slider .owl-dots {
+  display: none;
+}
+
+/* line 21, sass/modules/_card-slider.sass */
+.image-slider--controller-container {
+  background-color: #08a1e5;
+  overflow: hidden;
+  padding: 5px 0;
+}
+
+/* line 28, sass/modules/_card-slider.sass */
+.image-slider-copy {
+  padding: 0 0 0 5px;
+  color: white;
+}
+
+/* line 33, sass/modules/_card-slider.sass */
+.image-slider-copy h3 {
+  font-size: 0.8rem;
+}
+
+/* line 36, sass/modules/_card-slider.sass */
+.image-slider-copy p {
+  font-size: 0.6rem;
+}
+
+/* line 39, sass/modules/_card-slider.sass */
+.image-slider-content {
+  color: white;
+  border-left: 1px solid #1f85bd;
+}
+
+/* line 44, sass/modules/_card-slider.sass */
+.image-slider-price {
+  background-color: #cff7cf;
+  color: black;
+  border-radius: 4px;
+  color: #06a106;
+}
+
+/* line 46, sass/modules/_card-slider.sass */
+.image-slider-price font {
+  size: 0.8rem;
+  weight: bold;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 44, sass/modules/_card-slider.sass */
+  .image-slider-price {
+    padding: 5px;
+  }
+}
+
+/* line 56, sass/modules/_card-slider.sass */
+.image-slider-button {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 58, sass/modules/_card-slider.sass */
+.image-slider-button font {
+  size: 0.8rem;
+  weight: bold;
+  weight-padding: 0 5px;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 56, sass/modules/_card-slider.sass */
+  .image-slider-button {
+    padding: 5px;
+  }
+}
+
+/* line 70, sass/modules/_card-slider.sass */
+#image-slider {
+  background-color: #545454;
+  position: relative;
+  padding: 0;
+  clear: both;
+}
+
+@media screen and (min-width: 999px) {
+  /* line 70, sass/modules/_card-slider.sass */
+  #image-slider {
+    padding: 0;
+  }
+}
+
+/* line 78, sass/modules/_card-slider.sass */
+#image-slider .container {
+  padding: 25px 0;
+}
+
+/* line 82, sass/modules/_card-slider.sass */
+#image-slider .title-attr {
+  text-align: center;
+  color: white;
+  margin: 0px !important;
+  padding: 15px 0;
+}
+
+/* line 88, sass/modules/_card-slider.sass */
+.vue-slider-wrapper {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1px) {
+  /* line 88, sass/modules/_card-slider.sass */
+  .vue-slider-wrapper {
+    margin-left: 0px;
+    position: relative;
+    padding: 0 20px;
+  }
+}
+
+/* line 95, sass/modules/_card-slider.sass */
+.image-card-heading {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+/* line 102, sass/modules/_card-slider.sass */
+.fade-transition {
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  overflow: hidden;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 108, sass/modules/_card-slider.sass */
+.fade-enter, .fade-leave {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* line 113, sass/modules/_card-slider.sass */
+.similar-slider .left-arrow-svg-3, .featured-slider .left-arrow-svg-3 {
+  height: 35px;
+  width: 35px;
+}
+
+/* line 117, sass/modules/_card-slider.sass */
+.similar-slider .right-arrow-svg-3, .featured-slider .right-arrow-svg-3 {
+  height: 35px;
+  width: 35px;
+}
+
+/* line 120, sass/modules/_card-slider.sass */
+.similar-slider .card, .featured-slider .card {
+  margin: 0px 0px 10px 0px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  height: auto;
+  position: relative;
+}
+
+/* line 128, sass/modules/_card-slider.sass */
+.similar-slider .card--wrapper, .featured-slider .card--wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 132, sass/modules/_card-slider.sass */
+.similar-slider .card--image, .featured-slider .card--image {
+  margin: auto;
+}
+
+/* line 134, sass/modules/_card-slider.sass */
+.similar-slider .card--image img, .featured-slider .card--image img {
+  width: 100%;
+}
+
+/* line 137, sass/modules/_card-slider.sass */
+.similar-slider .card--title, .featured-slider .card--title {
+  margin: 5px 0 !important;
+  text-align: center;
+  padding: 0 5px;
+  font-size: 22px !important;
+  font-weight: 600;
+}
+
+/* line 144, sass/modules/_card-slider.sass */
+.similar-slider .card a, .featured-slider .card a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* line 147, sass/modules/_card-slider.sass */
+.similar-slider .card-wrapper, .featured-slider .card-wrapper {
+  padding: 5px;
+}
+
+/* line 150, sass/modules/_card-slider.sass */
+.similar-slider .card--subtitle, .featured-slider .card--subtitle {
+  text-align: center;
+  margin: 5px 0 !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+}
+
+/* line 156, sass/modules/_card-slider.sass */
+.similar-slider .card--footer, .featured-slider .card--footer {
+  background-color: #333;
+  width: 100%;
+  display: block;
+  padding: 7px 0;
+  text-decoration: none;
+  color: white;
+  font-size: 16px !important;
+}
+
+/* line 167, sass/modules/_card-slider.sass */
+.inventory--price-wrapper {
+  background-color: #cff7cf;
+  width: 100%;
+  text-align: center;
+  padding: 3.5px 0px;
+}
+
+/* line 173, sass/modules/_card-slider.sass */
+.inventory--price-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #06a106;
+}
+
+/* line 179, sass/modules/_card-slider.sass */
+.inventory--price-price {
+  font-size: 32px;
+  font-weight: bold;
+  color: #06a106;
+}
+
+/* line 185, sass/modules/_card-slider.sass */
+.inventory--price-discount {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+/* line 191, sass/modules/_card-slider.sass */
+.discount-wrapper {
+  text-align: center;
+  padding-top: 7px;
+}
+
+/* line 195, sass/modules/_card-slider.sass */
+.primary-button, .primary-button-contain {
+  background-color: #808080;
+  border-radius: 8px;
+  color: #ededed;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  height: auto;
+  margin: 10px 0px;
+  overflow: hidden;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+}
+
+/* line 211, sass/modules/_card-slider.sass */
+.primary-button-contain {
+  max-width: 300px;
+  margin: auto;
+}
+
+/* line 2, sass/modules/_default-template.sass */
+.textblock #image-slider {
+  overflow: hidden;
+}
+
+/* line 5, sass/modules/_default-template.sass */
+.textblock #image-slider .container {
+  padding: 25px;
+}
+
+/* line 5, sass/modules/_continuous-slider.sass */
+.left-arrow-svg-3 {
+  display: none;
+  border-radius: 50%;
+  background-color: #545454;
+  cursor: pointer;
+  display: block;
+  fill: #ffffff;
+  height: 50px;
+  left: 2vw;
+  top: 40%;
+  position: absolute;
+  width: 50px;
+  z-index: 2;
+}
+
+/* line 19, sass/modules/_continuous-slider.sass */
+.right-arrow-svg-3 {
+  display: none;
+  border-radius: 50%;
+  background-color: #545454;
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  right: 2vw;
+  top: 40%;
+  position: absolute;
+  fill: #ffffff;
+  width: 50px;
+  z-index: 2;
+}
+
+/* line 33, sass/modules/_continuous-slider.sass */
+.strikethrough {
+  text-decoration: line-through;
+}
+
+/* line 36, sass/modules/_continuous-slider.sass */
+.swipe-mobile {
+  display: block;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 36, sass/modules/_continuous-slider.sass */
+  .swipe-mobile {
+    display: none;
+  }
+}
+
+/* line 42, sass/modules/_continuous-slider.sass */
+.continuous-slider {
+  overflow: hidden;
+  background-color: #cccccc !important;
+  padding: 10px 0px !important;
+  /* .continuous-slider .card */
+}
+
+/* line 47, sass/modules/_continuous-slider.sass */
+.continuous-slider * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 55, sass/modules/_continuous-slider.sass */
+.continuous-slider .vue-slider-wrapper {
+  overflow: initial;
+}
+
+/* line 57, sass/modules/_continuous-slider.sass */
+.continuous-slider .vue-slider-wrapper .owl-nav {
+  width: auto;
+  visibility: visible;
+  position: static;
+}
+
+/* line 62, sass/modules/_continuous-slider.sass */
+.continuous-slider .left-arrow-svg-3,
+.continuous-slider .right-arrow-svg-3 {
+  display: none;
+  width: 35px;
+  position: absolute;
+  height: 35px;
+  z-index: 2;
+  top: 55px;
+  left: -15px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 62, sass/modules/_continuous-slider.sass */
+  .continuous-slider .left-arrow-svg-3,
+  .continuous-slider .right-arrow-svg-3 {
+    left: 0px;
+  }
+}
+
+/* line 76, sass/modules/_continuous-slider.sass */
+.continuous-slider .right-arrow-svg-3 {
+  right: -15px;
+  left: auto;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 76, sass/modules/_continuous-slider.sass */
+  .continuous-slider .right-arrow-svg-3 {
+    left: auto;
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  /* line 83, sass/modules/_continuous-slider.sass */
+  .continuous-slider .page-template-template-catalog {
+    top: 50px;
+  }
+}
+
+/* line 89, sass/modules/_continuous-slider.sass */
+.continuous-slider .title-attr {
+  display: none;
+  color: #5d5d5d !important;
+  padding: 5% 0px;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 89, sass/modules/_continuous-slider.sass */
+  .continuous-slider .title-attr {
+    display: block;
+    padding: 7% 0px;
+  }
+}
+
+/* line 99, sass/modules/_continuous-slider.sass */
+.continuous-slider .continuous-carousel {
+  padding: 0px;
+}
+
+/* line 103, sass/modules/_continuous-slider.sass */
+.continuous-slider .continuous-carousel-divider {
+  bottom: -30px;
+  color: white;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: left bottom 0;
+  transform-origin: left bottom 0;
+  position: absolute !important;
+  left: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block !important;
+  width: 190px;
+  padding: 0 !important;
+  background-color: #999;
+  text-align: center;
+  height: 30px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* line 123, sass/modules/_continuous-slider.sass */
+.continuous-slider .continuous-carousel-divider:after {
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  width: 0;
+  height: 0;
+  left: calc(50% - 25px);
+  border-style: solid;
+  border-width: 20px 25px 0 25px;
+  border-color: #999 transparent transparent transparent;
+}
+
+/* line 133, sass/modules/_continuous-slider.sass */
+.continuous-slider .continuous-carousel-divider p {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 137, sass/modules/_continuous-slider.sass */
+.continuous-slider .card {
+  background-color: white;
+  min-height: 150px !important;
+  border: 2px solid #cccccc;
+  margin: 0px;
+  overflow: initial;
+  position: relative;
+  /* .continuous-slider .card--image */
+}
+
+/* line 145, sass/modules/_continuous-slider.sass */
+.continuous-slider .card .one {
+  margin-top: 0px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 157, sass/modules/_continuous-slider.sass */
+.continuous-slider .card--title {
+  text-align: left;
+  line-height: normal;
+  margin: 0 !important;
+  font-size: 16px !important;
+}
+
+/* line 163, sass/modules/_continuous-slider.sass */
+.continuous-slider .card--title a {
+  /*.continuous-slider .card--title a  */
+  color: #333;
+}
+
+/* line 167, sass/modules/_continuous-slider.sass */
+.continuous-slider .card--title-wrapper {
+  float: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 3.5px;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 167, sass/modules/_continuous-slider.sass */
+  .continuous-slider .card--title-wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 5px;
+  }
+}
+
+/* line 182, sass/modules/_continuous-slider.sass */
+.continuous-slider .card--image {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+/* line 186, sass/modules/_continuous-slider.sass */
+.continuous-slider .card--image img {
+  margin: auto;
+  display: block;
+  border: 1px solid #cccccc;
+}
+
+/* line 192, sass/modules/_continuous-slider.sass */
+.continuous-slider .inventory--price {
+  /* inventory--price-wrapper */
+}
+
+/* line 194, sass/modules/_continuous-slider.sass */
+.continuous-slider .inventory--price-wrapper {
+  background-color: transparent;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+  border-radius: 4px;
+  float: left;
+  width: auto;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 194, sass/modules/_continuous-slider.sass */
+  .continuous-slider .inventory--price-wrapper {
+    line-height: 1;
+  }
+}
+
+/* line 207, sass/modules/_continuous-slider.sass */
+.continuous-slider .inventory--price-price {
+  font-size: 1rem;
+}
+
+/* line 209, sass/modules/_continuous-slider.sass */
+.continuous-slider .inventory--vdp-link {
+  /* .inventory--vdp-link */
+  margin: 0;
+  padding-right: 0px;
+}
+
+/* line 216, sass/modules/_continuous-slider.sass */
+.continuous-slider .discount-wrapper {
+  padding: 0px;
+  clear: both;
+}
+
+/* line 221, sass/modules/_continuous-slider.sass */
+.continuous-slider .discount-wrapper a {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+/* line 226, sass/modules/_continuous-slider.sass */
+.continuous-slider {
+  /* CONTINUOUS SLIDER */
+  display: none;
+}
+
+/* line 230, sass/modules/_continuous-slider.sass */
+.continuous-slider .title-attr {
+  display: none;
+}
+
+/* line 234, sass/modules/_continuous-slider.sass */
+.image-slider--disclaimer {
+  text-align: center;
+  color: #999;
+  font-weight: 600;
+}
+
+/* line 240, sass/modules/_continuous-slider.sass */
+.image-slider--controller {
+  background-color: #08a1e5;
+  overflow: hidden;
+  padding: 5px 0;
+  /* image-slider--controller-row */
+  /* .image-slider--controller-container */
+  /* image-slider--controller-copy */
+  /* image-slider--controller-chevron */
+  /* image-slider--controller-content */
+  /* image-slider--controller-title */
+  /* image-slider--controller-button */
+  /* image-slider--controller-price */
+}
+
+@media screen and (min-width: 767px) {
+  /* line 240, sass/modules/_continuous-slider.sass */
+  .image-slider--controller {
+    display: block;
+  }
+}
+
+/* line 248, sass/modules/_continuous-slider.sass */
+.image-slider--controller-row {
+  padding: 0px;
+  position: relative;
+  display: block;
+  float: left;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 248, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-row {
+    width: 100%;
+  }
+}
+
+/* line 256, sass/modules/_continuous-slider.sass */
+.image-slider--controller-container {
+  background-color: #ccc;
+  padding: 0px;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 256, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-container {
+    min-height: 50px;
+  }
+}
+
+/* line 264, sass/modules/_continuous-slider.sass */
+.image-slider--controller-container .down-arrow,
+.image-slider--controller-container .close-out {
+  fill: white;
+  stroke: white;
+  width: 100%;
+  height: 25px;
+  border-radius: 3px;
+  padding: 3px;
+  max-width: 25px;
+}
+
+/* line 274, sass/modules/_continuous-slider.sass */
+.image-slider--controller-container .down-arrow-wrapper,
+.image-slider--controller-container .close-out-wrapper {
+  padding: 0px;
+  margin-top: 0px;
+  height: 100%;
+  min-height: 50px;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  top: 0;
+  border-left: solid 1px red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 274, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-container .down-arrow-wrapper,
+  .image-slider--controller-container .close-out-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  /* line 274, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-container .down-arrow-wrapper,
+  .image-slider--controller-container .close-out-wrapper {
+    border-radius: 5px;
+  }
+}
+
+/* line 296, sass/modules/_continuous-slider.sass */
+.image-slider--controller-container .down-arrow-wrapper p,
+.image-slider--controller-container .close-out-wrapper p {
+  color: white;
+  line-height: initial;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+/* line 303, sass/modules/_continuous-slider.sass */
+.image-slider--controller-copy {
+  margin-top: 0px;
+  padding: 10px;
+  color: white;
+  background-color: #999;
+  min-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 991px) {
+  /* line 303, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-copy {
+    margin-top: 0px;
+  }
+}
+
+/* line 316, sass/modules/_continuous-slider.sass */
+.image-slider--controller-copy > * {
+  padding: 0px;
+}
+
+/* line 319, sass/modules/_continuous-slider.sass */
+.image-slider--controller-copy h3 {
+  font-size: 0.7rem;
+}
+
+@media screen and (min-width: 991px) {
+  /* line 319, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-copy h3 {
+    font-size: 1rem;
+  }
+}
+
+/* line 323, sass/modules/_continuous-slider.sass */
+.image-slider--controller-copy p {
+  font-size: 0.6rem;
+}
+
+@media screen and (min-width: 991px) {
+  /* line 303, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-copy {
+    font-size: 0.8rem;
+  }
+}
+
+/* line 328, sass/modules/_continuous-slider.sass */
+.image-slider--controller-chevron {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: absolute;
+  border-style: solid;
+  border-width: 31px 0px 30px 25px;
+  border-color: #ccc #ccc #ccc #999;
+  top: 0px;
+  right: 0px;
+}
+
+/* line 341, sass/modules/_continuous-slider.sass */
+.image-slider--controller-content {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 341, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-content {
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0px;
+    padding-right: 5px;
+    width: auto;
+    border-right: 1px solid #999;
+  }
+}
+
+/* line 360, sass/modules/_continuous-slider.sass */
+.image-slider--controller-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 360, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-title {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+  }
+}
+
+/* line 380, sass/modules/_continuous-slider.sass */
+.image-slider--controller-button, .image-slider--controller-price {
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 0 5px;
+  /* image-slider--controller-button a */
+  /* image-slider--controller-price a */
+}
+
+@media screen and (min-width: 767px) {
+  /* line 380, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-button, .image-slider--controller-price {
+    height: auto;
+    width: auto;
+  }
+}
+
+/* line 393, sass/modules/_continuous-slider.sass */
+.image-slider--controller-button a, .image-slider--controller-price a {
+  height: 100% !important;
+  margin: 0px;
+  line-height: initial;
+  position: relative;
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 3px 5px;
+  /* a.image-slider--controller-pricetag */
+}
+
+@media screen and (min-width: 767px) {
+  /* line 393, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-button a, .image-slider--controller-price a {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+/* line 408, sass/modules/_continuous-slider.sass */
+.image-slider--controller-button a.image-slider--controller-pricetag, .image-slider--controller-price a.image-slider--controller-pricetag {
+  background-color: #996666;
+  color: white;
+  font-weight: 700;
+  cursor: initial;
+}
+
+/* line 413, sass/modules/_continuous-slider.sass */
+.image-slider--controller-button a.image-slider--controller-buttontag, .image-slider--controller-price a.image-slider--controller-buttontag {
+  font-size: 0.6rem;
+  padding: 0px;
+  padding-top: 3.5px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 413, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-button a.image-slider--controller-buttontag, .image-slider--controller-price a.image-slider--controller-buttontag {
+    padding-top: 0px;
+    font-size: 0.8rem;
+  }
+}
+
+/* line 422, sass/modules/_continuous-slider.sass */
+.image-slider--controller-price {
+  padding: 0px;
+}
+
+/* line 425, sass/modules/_continuous-slider.sass */
+.image-slider--controller-price a {
+  width: 100%;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 425, sass/modules/_continuous-slider.sass */
+  .image-slider--controller-price a {
+    padding: 5px 10px;
+  }
+}
+
+/* line 430, sass/modules/_continuous-slider.sass */
+.close-out {
+  /* not broken out until more relative elements are present */
+}
+
+@media screen and (min-width: 767px) {
+  /* line 430, sass/modules/_continuous-slider.sass */
+  .close-out {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    color: white;
+    line-height: 1.6;
+  }
+}
