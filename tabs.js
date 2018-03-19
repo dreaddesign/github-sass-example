@@ -1,26 +1,23 @@
 
 // Create an immediately invoked functional expression to wrap our code
 (function() {
-  // Define our constructor
-  window.FTTabs = function(container) {
-	// Create global element references
-	this.container = container;
-	this.tabs;
-	this.panels;
-	// Define option defaults
-	var defaults = {
-/*	  tabs: Array.from(this.container.children[0].children),
-	  panels: Array.from(this.children),
-	  activetab: tabs[0],*/
-	  side: 'top',
-	  accordian: false,
+	// Define our constructor
+	window.FTTabs = function(container) {
+		// Create global element references
+		this.container = container;
+		this.tabs;
+		this.panels;
+		// Define option defaults
+		var defaults = {
+			side: 'top',
+			accordian: false,
+		}
+		//console.log(this);
+		// Create options by extending defaults with the passed in arugments
+		if (arguments[0] && typeof arguments[0] === "object") {
+			this.options = extendDefaults(defaults, arguments[0]);
+		}
 	}
-	//console.log(this);
-	// Create options by extending defaults with the passed in arugments
-	if (arguments[0] && typeof arguments[0] === "object") {
-	  this.options = extendDefaults(defaults, arguments[0]);
-	}
-  }
 
 	FTTabs.prototype.init = function(container) {
 		var
@@ -71,6 +68,8 @@
 	}
 
 }());
+
+
 
 var tabsContainer = document.getElementById('tabsContainer');
 var tabs1 = new FTTabs(tabsContainer).init();
