@@ -9,9 +9,7 @@
 	this.panels;
 	// Define option defaults
 	var defaults = {
-/*	  tabs: Array.from(this.container.children[0].children),
-	  panels: Array.from(this.children),
-	  asdf;kasd
+/*	  asdf;kasd
 	  adding more to this comming because im not aware that any other changes were made
 	  activetab: tabs[0],*/
 	  side: 'top',
