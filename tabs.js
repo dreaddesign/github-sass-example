@@ -7,21 +7,21 @@
 	this.container = container;
 	this.tabs;
 	this.panels;
-	// Define option defaults
-	var defaults = {
-/*	  asdf;kasd
-	  adding more to this comming because im not aware that any other changes were made
-	  activetab: tabs[0],*/
-	  side: 'top',
-	  accordian: false,
-	}
+
 	//console.log(this);
 	// Create options by extending defaults with the passed in arugments
 	if (arguments[0] && typeof arguments[0] === "object") {
 	  this.options = extendDefaults(defaults, arguments[0]);
 	}
   }
-
+	// Define option defaults
+	// some new comments
+	var defaults = {
+		side: 'top',
+		accordian: false,
+		test: 'foo',
+		test1: 'bar'
+	}
 	FTTabs.prototype.init = function(container) {
 		var
 		_         = this,
